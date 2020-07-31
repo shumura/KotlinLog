@@ -14,9 +14,10 @@ class MainActivity : AppCompatActivity() {
 
         dog.move()
 
-        val human = Human
+        val human = Human("しゅう",27,"プログラミング")
 
-        Human.say()
+        human.say()
+
 
         human.think()
     }
